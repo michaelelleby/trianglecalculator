@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace AzureCalculator.Test
 {
-    public class ApiTests : FunctionTest
+    public class CalculateTests : FunctionTest
     {
         [Test]
         [TestCase(10, 10, 10, TriangleType.Equilateral)]
