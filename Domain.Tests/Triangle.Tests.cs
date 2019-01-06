@@ -1,15 +1,15 @@
 ﻿using NUnit.Framework;
 using System;
 
-namespace Domain.Tests
+namespace Domain.Test
 {
     [TestFixture]
     public class TriangleTest
     {
         [Test]
-        [TestCase((int)0, (int)10, (int)15)]
-        [TestCase((int)15, (int)0, (int)15)]
-        [TestCase((int)15, (int)10, (int)0)]
+        [TestCase(0, 10, 15)]
+        [TestCase(15, 0, 15)]
+        [TestCase(15, 10, 0)]
         public void ShouldThrowAnyLengthIsZero(int first, int second, int third)
         {
             // Arrange
@@ -36,9 +36,9 @@ namespace Domain.Tests
         }
 
         [Test]
-        [TestCase((int)10, (int)10, (int)10, TriangleType.Equilateral)]
-        [TestCase((int)10, (int)10, (int)5, TriangleType.Isosceles)]
-        [TestCase((int)10, (int)5, (int)1, TriangleType.Scalene)]
+        [TestCase(10, 10, 10, TriangleType.Equilateral)]
+        [TestCase(10, 10, 5, TriangleType.Isosceles)]
+        [TestCase(10, 5, 1, TriangleType.Scalene)]
         public void ShouldSetTypeBasedOnSidesLengths(int first, int second, int third, TriangleType expectedType)
         {
             // Arrange

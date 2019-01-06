@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "CloudeonTriangleCalc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{ABFF1FF9-A895-47DC-80C8-4699C0370A24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{5A1030D7-3095-4299-A287-C7456D278F16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Test", "Domain.Tests\Domain.Test.csproj", "{5A1030D7-3095-4299-A287-C7456D278F16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCalculator", "AzureCalculator\AzureCalculator.csproj", "{9A3296FA-6A46-48D8-A7E7-79FF38EBC1B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCalculator", "AzureCalculator\AzureCalculator.csproj", "{9A3296FA-6A46-48D8-A7E7-79FF38EBC1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCalculator.Test", "AzureCalculator.Test\AzureCalculator.Test.csproj", "{C4537523-B345-4FBA-A82A-B801DABCDFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHelpers", "TestHelpers\TestHelpers.csproj", "{875C87E0-79E5-480F-BD45-30072373AE87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{9A3296FA-6A46-48D8-A7E7-79FF38EBC1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3296FA-6A46-48D8-A7E7-79FF38EBC1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3296FA-6A46-48D8-A7E7-79FF38EBC1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4537523-B345-4FBA-A82A-B801DABCDFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4537523-B345-4FBA-A82A-B801DABCDFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4537523-B345-4FBA-A82A-B801DABCDFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4537523-B345-4FBA-A82A-B801DABCDFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875C87E0-79E5-480F-BD45-30072373AE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875C87E0-79E5-480F-BD45-30072373AE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875C87E0-79E5-480F-BD45-30072373AE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875C87E0-79E5-480F-BD45-30072373AE87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
