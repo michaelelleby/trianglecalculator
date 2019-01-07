@@ -12,7 +12,6 @@ namespace FunctionTestHelper
 {
     public abstract class FunctionTest
     {
-
         protected ILogger log = new DebugLogger("Debug");
 
         public HttpRequest HttpRequestSetup(Dictionary<String, StringValues> query, string body)
