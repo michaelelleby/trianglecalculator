@@ -21,8 +21,7 @@ namespace AzureCalculator
             }
 
             var triangle = new Triangle(first, second, third);
-            return new OkObjectResult(triangle.Type.ToString());
-
+            return new JsonResult(triangle.Type.ToString());
         }
     }
 }
